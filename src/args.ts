@@ -55,6 +55,13 @@ export const globalArguments: ArgDescriptor[] = [
     group: 'global',
   },
   {
+    name: 'help',
+    description: 'silence output',
+    type: Boolean,
+    alias: 'h',
+    group: 'global',
+  },
+  {
     name: 'quiet',
     description: 'silence output',
     type: Boolean,
